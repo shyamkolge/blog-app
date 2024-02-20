@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header , Footer} from './index.js'
+import {Header , Footer } from './index.js'
 
 function MainLayout({childrens}) {
   return (

@@ -4,4 +4,5 @@ import MainLayout from './Mainlayout'
 
 
 
-export {Header , Footer , MainLayout}
+
+export {Header , Footer , MainLayout }
