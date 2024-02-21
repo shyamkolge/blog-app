@@ -1,14 +1,15 @@
 import React from 'react'
-import {Header , Footer } from './index.js'
+import {Header, Footer  } from './index.js'
 
-function MainLayout({childrens}) {
+const MainLayout = ({ children }) => {
   return (
-      <div>
-        <Header/>
-        {childrens}
-        <Footer/>        
-       </div>
-  )
-}
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+};
+
 
 export default MainLayout
